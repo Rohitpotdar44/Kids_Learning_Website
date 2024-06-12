@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Test</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./calculator-fill.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="title"> Multiplication Table Test By KIDZ +</h1>
+
+        <div class="table-options">
+            <label for="multiplicationTable">Choose a table</label>
+            <select id="multiplicationTable">
+                <option id="one" value="1">1</option>
+                <option id="two" value="2">2</option>
+                <option id="three" value="3">3</option>
+                <option id="four" value="4">4</option>
+                <option id="five" value="5">5</option>
+                <option id="six" value="6">6</option>
+                <option id="seven" value="7">7</option>
+                <option id="eight" value="8">8</option>
+                <option id="nine" value="9">9</option>
+                <option id="ten" value="10">10</option>
+            </select>
+        </div>
+
+        <div class="input">
+            <label for="user-input">The number to be multiplied</label>
+            <input type="number" name="user-input" id="user-input"><br><br>
+            <label for="correct-input">enter the correct answer</label>
+            <input type="number" name="correct-input" id="correct-input">
+        </div>
+
+        <div class="results">
+            <h2 id="is-user-correct"></h2>
+            <h2 id="result">: </h2>
+        </div>
+
+        <div class="button"><button type="submit" id="btn">Start Testing</button></div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

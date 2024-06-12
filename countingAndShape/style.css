@@ -1,0 +1,99 @@
+    .canvas-container {
+
+    display: inline-block;
+    text-align: center; /* Horizontally center the content */
+    vertical-align: middle; /* Vertically center the content */
+   
+    /*background-image: url(/images/ballsbak.avif);*/
+     
+     border-radius:20px
+
+
+    }
+
+@media screen and (max-width: 768px) {
+  .canvas-container {
+    width: 100%; /* Set width to 90% on smaller screens (phones) */
+        padding-top:1% ;
+    padding-bottom:1% ;
+  }
+    .canvas-item {
+  margin: 0 calc(4% - 9.5px);
+  
+  width: calc(17% - 1px);
+   
+  }
+
+}
+
+ 
+ @media screen and (min-width: 769px) and (max-width: 1700px){
+  .canvas-container {
+    padding-top:1% ;
+    padding-bottom:1% ;
+    width: 70%; /* Set width to 90% on smaller screens (phones) */
+  }
+   .canvas-item {
+  /*  background-color: transparent;  Set the canvas background to transparent */
+ margin: 0 calc(2.2% - 11px);
+ width: calc(9% - 19px);
+    }
+}
+    .canvas-item {
+    background-color: transparent; /* Set the canvas background to transparent */
+
+    }
+
+    .centerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius:20px;
+
+    }
+    #numberShapeInput{
+   width:50%;
+    height:50%;
+    text-align:center;
+   font-size: 50px;
+    border-radius:20px;
+    }
+   
+
+    {margin:0px;
+    padding:0px;
+    }
+
+    .border{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+        
+
+    margin:20px;
+    margin-bottom:30px;
+    margin-top:70px;
+
+        background-color:RGB(152, 255, 204);
+
+    width:900px;
+    height:100px;
+   
+    border-radius:30px;
+    }
+   
+    body{
+    background-color:RGB(64, 224, 208);
+    }
+   
+   
+  hr {
+width: calc(95%);/* Set the hr width to 25% of the parent width (.canvas-container) */
+  height:8px;
+  border-radius: 5px;
+  background-color: RGB(152, 255, 204);
+}
+label{
+  background-color: RGB(1, 255, 204);  
+}
